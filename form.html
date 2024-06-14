@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form id="formulario">
+        <div class="containerForm">
+            <div id="registroIniciarSesion">
+                <a href="#" id="registroLink">Registro</a>
+                <a href="#" id="iniciarSesionLink">Iniciar Sesión</a>
+            </div>
+            <input type="text" placeholder="Nombre" id="nombre" autocomplete="off" required>
+            <input type="email" placeholder="Correo" id="email" autocomplete="off" required>
+            <input type="password" placeholder="Contraseña" id="contraseña" autocomplete="off" required>
+            <input type="password" placeholder="Confirmar Contraseña" id="confirmarContraseña" autocomplete="off" required>
+            <div class="containerChebox">
+                <input type="checkbox" id="checkbox" required>
+                <label for="checkbox" class="pCheckbox">He leído y acepto los <a href="#">términos y condiciones</a>.</label>
+            </div>
+            <input type="button" id="enviar" value="Enviar">
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
